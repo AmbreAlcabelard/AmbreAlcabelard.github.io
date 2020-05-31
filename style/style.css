@@ -221,7 +221,7 @@ p{
   cursor: default;
 }
 
-.livrefermé {
+.book {
   /* Display over the entire page */
   position: fixed;
   z-index: 99;
@@ -240,7 +240,7 @@ p{
   visibility: hidden;
 }
 
-.livrefermé img{
+.book img{
   /* Maximum image size */
   max-width: 80%;
   max-height: 80%;
@@ -252,7 +252,7 @@ p{
   height: auto;
 }
 
-.livrefermé:target {
+.book:target {
   visibility: visible;
   outline: none;
   cursor: default;
